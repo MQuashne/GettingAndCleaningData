@@ -3,9 +3,10 @@ title: "Code Boook - Aggregation of Human Activity Recognition Using Smartphones
 author: "Mike Quashne"
 date: "1/2/2020"
 output:
-  pdf_document: default
   html_document:
-    df_print: paged
+    toc: true
+    toc_depth: 2
+
 ---
 
 ```{r setup, include=FALSE}
@@ -150,7 +151,7 @@ dim(X_agg)
 **This fulfills assignment criteria #3**
 
 
-##Requirement 5 - Create a second dataset with the average of each variable for each activity and each subject
+## Requirement #5 - Create a second dataset with the average of each variable for each activity and each subject
 
 To create the final dataset, the aggregated set from the previous step was grouped by subject and activity, then the summarize_all function in dplyr was used to find the mean of all non-grouped variables:
 
