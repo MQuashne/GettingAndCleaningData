@@ -3,7 +3,8 @@ title: "Code Boook - Aggregation of Human Activity Recognition Using Smartphones
 author: "Mike Quashne"
 date: "1/2/2020"
 output:
-  html_document:
+    md_document:
+    variant: markdown_github
     toc: true
     toc_depth: 2
 
