@@ -1,5 +1,8 @@
-Columns included in this dataset
-================================
+# Table of Contents
+[Columns included in this dataset](##columns-included-in-this-dataset)
+
+## Columns included in this dataset
+
 
 The following columns are included:
 
