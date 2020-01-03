@@ -1,9 +1,16 @@
 # Table of Contents
-- [Columns Included in this Dataset](##columns-included-in-this-dataset)
-- [Data Description from Source Files](##data-description-from-source-files)
-- [Data Manipulation](##data-manipulation)
-    * [Downloading Data](##downloaing-data)
+These links will take the reader to the section of interest. Happy grading!
+
+- [Columns Included in this Dataset](#columns-included-in-this-dataset)
+- [Data Description from Source Files](#data-description-from-source-files)
+- [Data Manipulation](#data-manipulation)
+    * [Downloading Data](#downloaing-data)
     * [Requirement \#1 - Merge the training and test sets](#requirement-1---merge-the-training-and-test-sets)
+    * [Requirement \#4 - Descriptive variable names](#requirement-4---descriptive-variable-names)
+    * [Requirement \#3 - Descriptive activity names](#requirement-3---descriptive-activity-names)
+    * [Requirement \#2 - Select only certain columns](#requirement-2---select-only-certain-columns)
+    * [Requirement \#5 - Create a second dataset with the average of each variable for each activity and each subject](#requirement-5---create-a-second-dataset-with-the-average-of-each-variable-for-each-activity-and-each-subject)
+    
     
 
 ## Columns Included in this Dataset
@@ -283,8 +290,7 @@ all=TRUE to preserve all observations from both tables:
 
 **This fulfills assignment criteria \#1**
 
-Requirement \#4 - Descriptive variable names
---------------------------------------------
+### Requirement \#4 - Descriptive variable names
 
 Following the merge, a few cleanup operations were performed. First,
 column names were added to the X\_set using already defined column names
@@ -294,8 +300,7 @@ and a character vector made up of the column from the features tibble:
 
 **This fulfills assignment criteria \#4**
 
-Requirement \#3 - Descriptive activity names
---------------------------------------------
+### Requirement \#3 - Descriptive activity names
 
 Then, the “Subject”, “Activity”, and “Observation\_Type” columns were
 converted into factors from double, double, and character, respectively:
@@ -312,8 +317,7 @@ the corresponding text from the activity\_lables tibble:
 The result is a fully merged dataset with descriptive variable names and
 activity names (requirements 1, 3, and 4).
 
-Requirement \#2 - Select only certain columns
----------------------------------------------
+### Requirement \#2 - Select only certain columns
 
 To create the final product, only the factor variable columns, as well
 as those containing the mean and standard deviation of individual
@@ -330,8 +334,7 @@ from 564 to 68:
 
 **This fulfills assignment criteria \#3**
 
-Requirement \#5 - Create a second dataset with the average of each variable for each activity and each subject
---------------------------------------------------------------------------------------------------------------
+### Requirement \#5 - Create a second dataset with the average of each variable for each activity and each subject
 
 To create the final dataset, the aggregated set from the previous step
 was grouped by subject and activity, then the summarize\_all function in
