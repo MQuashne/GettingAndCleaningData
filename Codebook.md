@@ -1,7 +1,11 @@
 # Table of Contents
-[Columns included in this dataset](##columns-included-in-this-dataset)
+- [Columns Included in this Dataset](##columns-included-in-this-dataset)
+- [Data Description from Source Files](##data-description-from-source-files)
+- [Data Manipulation](##data-manipulation)
+    *[Downloading Data](##downloaing-data)
+    
 
-## Columns included in this dataset
+## Columns Included in this Dataset
 
 
 The following columns are included:
@@ -94,8 +98,8 @@ The following columns are included:
     -   530 fBodyBodyGyroMag-std()
     -   543 fBodyBodyGyroJerkMag-std()
 
-Data Description from source files
-==================================
+## Data Description from source files
+
 
 The features selected for this database come from the accelerometer and
 gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain
@@ -145,11 +149,9 @@ The set of variables that were estimated from these signals are:
 -   mean(): Mean value
 -   std(): Standard deviation
 
-Data Manipulation
-=================
+## Data Manipulation
 
-Downloading Data
-----------------
+### Downloading Data
 
 Data for this set was downloaded as a zip file from
 <a href="https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip" class="uri">https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip</a>
