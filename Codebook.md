@@ -3,7 +3,7 @@
 - [Data Description from Source Files](##data-description-from-source-files)
 - [Data Manipulation](##data-manipulation)
     * [Downloading Data](##downloaing-data)
-    * [Requirement \#1 - Merge the training and test sets]
+    * [Requirement \#1 - Merge the training and test sets](#requirement-1---merge-the-training-and-test-sets)
     
 
 ## Columns Included in this Dataset
