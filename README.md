@@ -8,4 +8,4 @@ statistics for smartphone accelerometer observations for a given Subject
 The source files observations from the accelerometers of 30 Samsung
 Galaxy S smartphones during six different motion activities. A
 description of the steps used to build dataset.txt can be found in
-Codebook.md
+[Codebook.md](https://github.com/MQuashne/GettingAndCleaningData/blob/master/Codebook.md)
