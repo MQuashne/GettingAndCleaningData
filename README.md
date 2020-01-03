@@ -1,6 +1,10 @@
 Description
 ===========
 
+**This document is formatted with headers for each of the assignment
+requirements. You should be able to pick out the section you’re grading.
+Thanks!!**
+
 The purpose of the run\_analysis.r script is to use provided datasets to
 create an table of the mean of summary statistics for smartphone
 accelerometer observations by subject and activity type. The following
