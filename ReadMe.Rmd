@@ -1,5 +1,5 @@
 ---
-title: "Code Boook - Aggregation of Human Activity Recognition Using Smartphones"
+title: "ReadMe - Aggregation of Human Activity Recognition Using Smartphones"
 author: "Mike Quashne"
 date: "1/2/2020"
 output:
@@ -158,6 +158,7 @@ To create the final dataset, the aggregated set from the previous step was group
 
 ```{r summary}
 Summary_Set<-group_by(X_agg,Subject,Activity) %>% summarize_all(funs(mean))
+write.table(Summary_Set,"Dataset.txt")
 Summary_Set
 ```
 

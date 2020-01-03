@@ -48,4 +48,4 @@ X_agg<-select(X_set,Subject,Activity,contains("mean()"),contains("std()"))
 
 #----From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.----#
 Summary_Set<-group_by(X_agg,Subject,Activity) %>% summarize_all(funs(mean))
-write.csv(Summary_Set,"Dataset.csv")
+write.table(Summary_Set,"Dataset.txt")
