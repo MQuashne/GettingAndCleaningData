@@ -2,7 +2,8 @@
 - [Columns Included in this Dataset](##columns-included-in-this-dataset)
 - [Data Description from Source Files](##data-description-from-source-files)
 - [Data Manipulation](##data-manipulation)
-    *[Downloading Data](##downloaing-data)
+    * [Downloading Data](##downloaing-data)
+    * [Requirement \#1 - Merge the training and test sets]
     
 
 ## Columns Included in this Dataset
@@ -211,8 +212,7 @@ The following files were used to compose this dataset:
 The files were downloaded and stored in a folder in the working
 directory.
 
-Requirement \#1 - Merge the training and test sets
---------------------------------------------------
+### Requirement \#1 - Merge the training and test sets
 
 The following packages were loaded for use in the analysis:
 
